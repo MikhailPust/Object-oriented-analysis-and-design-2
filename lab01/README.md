@@ -24,5 +24,7 @@
 
 ## Скриншот диаграммы классов:
 
-<img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/9b9a2b63-15d3-4f64-bccf-cc55b5be77bb" />
+<img width="1235" height="733" alt="image" src="https://github.com/user-attachments/assets/3aa63462-96f7-46a4-9682-1daeb0935e19" />
+
+
 
