@@ -26,11 +26,13 @@
 
 ## Скриншот диаграммы классов:
 
-<img width="1244" height="765" alt="image" src="https://github.com/user-attachments/assets/d513d5e5-35a7-4da6-8745-630e4f1e48b9" />
+<img width="987" height="560" alt="image" src="https://github.com/user-attachments/assets/13e9ed70-acb6-41ae-8257-223be5e26522" />
+
 
 ## Вывод
 
 Внедрение паттерна Одиночка позволило обеспечить единую точку записи событий для всех компонентов приложения. Все три класса — NoteRepository, NoteEditor и NoteListController — обращаются к одному объекту Logger через единую глобальную точку доступа `GetInstance()`, что гарантирует единый журнал на всё приложение и исключает возможность случайного создания лишнего экземпляра из любого места программы.
+
 
 
 
