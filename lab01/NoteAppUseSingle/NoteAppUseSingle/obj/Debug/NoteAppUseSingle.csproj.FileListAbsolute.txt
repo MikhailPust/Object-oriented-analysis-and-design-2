@@ -1,0 +1,12 @@
+C:\ООАП 2 сем\NoteAppUseSingle\NoteAppUseSingle\obj\Debug\NoteAppUseSingle.csproj.AssemblyReference.cache
+C:\ООАП 2 сем\NoteAppUseSingle\NoteAppUseSingle\obj\Debug\NoteAppUseSingle.Properties.Resources.resources
+C:\ООАП 2 сем\NoteAppUseSingle\NoteAppUseSingle\obj\Debug\NoteAppUseSingle.csproj.GenerateResource.cache
+C:\ООАП 2 сем\NoteAppUseSingle\NoteAppUseSingle\obj\Debug\NoteAppUseSingle.csproj.CoreCompileInputs.cache
+C:\ООАП 2 сем\NoteAppUseSingle\NoteAppUseSingle\bin\Debug\NoteAppUseSingle.exe.config
+C:\ООАП 2 сем\NoteAppUseSingle\NoteAppUseSingle\bin\Debug\NoteAppUseSingle.exe
+C:\ООАП 2 сем\NoteAppUseSingle\NoteAppUseSingle\bin\Debug\NoteAppUseSingle.pdb
+C:\ООАП 2 сем\NoteAppUseSingle\NoteAppUseSingle\obj\Debug\NoteApp.MainForm.resources
+C:\ООАП 2 сем\NoteAppUseSingle\NoteAppUseSingle\obj\Debug\NoteAppUseSingle.exe
+C:\ООАП 2 сем\NoteAppUseSingle\NoteAppUseSingle\obj\Debug\NoteAppUseSingle.pdb
+C:\ООАП 2 сем\NoteAppUseSingle\NoteAppUseSingle\obj\Debug\NoteAppUseSingle.exe.config
+C:\ООАП 2 сем\NoteAppUseSingle\NoteAppUseSingle\obj\Debug\NoteApp.LogForm.resources
