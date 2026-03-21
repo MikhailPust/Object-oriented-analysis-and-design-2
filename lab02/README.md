@@ -31,6 +31,6 @@
 
 ## 4. Диаграмма классов
 
-<img width="929" height="734" alt="image" src="https://github.com/user-attachments/assets/544fc158-c048-4e09-8c3c-f842aff00f6e" />
+<img width="1160" height="801" alt="image" src="https://github.com/user-attachments/assets/3566c903-31dd-415c-9fd6-30e15eab3f8b" />
 
 
