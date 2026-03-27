@@ -1,0 +1,3 @@
+C:\QT\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\MapEditorNoPattern.dir/objects.a
+C:\QT\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\MapEditorNoPattern.dir/objects.a @CMakeFiles\MapEditorNoPattern.dir\objects1.rsp
+C:\QT\Tools\mingw1310_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\MapEditorNoPattern.dir/objects.a -Wl,--no-whole-archive -o MapEditorNoPattern.exe -Wl,--out-implib,libMapEditorNoPattern.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MapEditorNoPattern.dir\linkLibs.rsp

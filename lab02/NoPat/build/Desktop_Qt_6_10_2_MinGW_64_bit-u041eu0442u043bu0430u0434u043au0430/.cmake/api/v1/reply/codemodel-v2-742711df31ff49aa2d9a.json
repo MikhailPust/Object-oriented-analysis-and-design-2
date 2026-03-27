@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MapEditorNoPattern",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MapEditorNoPattern::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MapEditorNoPattern-Debug-6849d4f7263c5d510faf.json",
+					"name" : "MapEditorNoPattern",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MapEditorNoPattern_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MapEditorNoPattern_autogen-Debug-ed3d53fa3dc6b037ef13.json",
+					"name" : "MapEditorNoPattern_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MapEditorNoPattern_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MapEditorNoPattern_autogen_timestamp_deps-Debug-827705f902cf14604e09.json",
+					"name" : "MapEditorNoPattern_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/OOP2/lab2NoPat/build/Desktop_Qt_6_10_2_MinGW_64_bit-u041eu0442u043bu0430u0434u043au0430",
+		"source" : "C:/OOP2/lab2NoPat"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

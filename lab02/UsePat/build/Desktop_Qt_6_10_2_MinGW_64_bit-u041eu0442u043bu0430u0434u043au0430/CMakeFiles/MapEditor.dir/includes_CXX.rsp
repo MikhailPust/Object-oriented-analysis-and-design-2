@@ -1,0 +1,1 @@
+-I"C:/OOP2/lab2/build/Desktop_Qt_6_10_2_MinGW_64_bit-u041eu0442u043bu0430u0434u043au0430/MapEditor_autogen/include" -isystem C:/QT/6.10.2/mingw_64/include/QtWidgets -isystem C:/QT/6.10.2/mingw_64/include -isystem C:/QT/6.10.2/mingw_64/include/QtCore -isystem "C:/QT/6.10.2/mingw_64/mkspecs/win32-g++" -isystem C:/QT/6.10.2/mingw_64/include/QtGui

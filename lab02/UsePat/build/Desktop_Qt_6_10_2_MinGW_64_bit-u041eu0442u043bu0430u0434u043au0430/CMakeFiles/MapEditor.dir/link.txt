@@ -1,0 +1,3 @@
+C:\QT\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\MapEditor.dir/objects.a
+C:\QT\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\MapEditor.dir/objects.a @CMakeFiles\MapEditor.dir\objects1.rsp
+C:\QT\Tools\mingw1310_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\MapEditor.dir/objects.a -Wl,--no-whole-archive -o MapEditor.exe -Wl,--out-implib,libMapEditor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MapEditor.dir\linkLibs.rsp

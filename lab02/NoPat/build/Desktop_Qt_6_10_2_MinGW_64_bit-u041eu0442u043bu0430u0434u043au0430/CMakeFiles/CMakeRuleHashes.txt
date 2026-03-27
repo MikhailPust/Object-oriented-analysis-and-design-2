@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+dbaaa5c2a0d3d579f53d2978abc0ffb6 CMakeFiles/MapEditorNoPattern_autogen
+ab2380de69ee5ea98ba06f71da52da55 MapEditorNoPattern_autogen/timestamp
