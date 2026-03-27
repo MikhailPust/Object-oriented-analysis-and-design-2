@@ -15,19 +15,15 @@
 #include <QImage>
 #include <QColor>
 
-// БЕЗ паттерна — каждая ячейка хранит ВСЕ свои данные сама
-// QImage + .copy() гарантирует реальное дублирование данных в памяти
-
 class TileCell {
 private:
     int     m_x;
     int     m_y;
     bool    m_placed;
-    // --- каждая ячейка хранит свою РЕАЛЬНУЮ копию всех данных ---
     QString m_name;
     QColor  m_color;
     QColor  m_accent;
-    QImage  m_image;      // QImage вместо QPixmap — реальная копия пикселей
+    QImage  m_image;      
     bool    m_hasTexture;
     bool    m_hasAccent;
 
@@ -56,13 +52,12 @@ public:
         p.drawRect(m_x * size, m_y * size, size, size);
     }
 
-    // Реальная память ячейки включая копию пикселей
     size_t memoryBytes() const {
         if (!m_placed) return 0;
         size_t mem = sizeof(TileCell);
         mem += (size_t)m_name.size() * 2;
         if (!m_image.isNull())
-            mem += (size_t)m_image.sizeInBytes(); // реальный размер скопированных пикселей
+            mem += (size_t)m_image.sizeInBytes(); 
         return mem;
     }
 
@@ -77,7 +72,6 @@ public:
         m_hasTexture = hasTexture;
         m_hasAccent  = hasAccent;
         if (hasTexture)
-            // .copy() — принудительная глубокая копия, Qt не кэширует
             m_image = QImage(path).copy();
     }
 
