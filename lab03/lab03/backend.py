@@ -7,7 +7,7 @@ from email.message import EmailMessage
 
 import requests
 
-GMAIL_ADDRESS = "Введите аодресс электронной почты отправителя"
+GMAIL_ADDRESS = "Введите аодрес электронной почты отправителя"
 GMAIL_PASSWORD = "Пароль от приложения 16 символов"
 TELEGRAM_TOKEN = "Введите токен телеграм"
 
