@@ -29,7 +29,8 @@
 
 ### 4. Диаграмма классов
 
-<img width="1279" height="758" alt="image" src="https://github.com/user-attachments/assets/67d2f71d-b1f2-436a-8c3b-5ba6a1820de5" />
+<img width="649" height="461" alt="image" src="https://github.com/user-attachments/assets/90b0f678-64fb-4b56-ac45-c0f1b3d5043a" />
+
 
 
 
