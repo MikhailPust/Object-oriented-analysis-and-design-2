@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="jcBp_82VMQvxugSKaHSx">
+    <mxGraphModel dx="1798" dy="631" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WaXUbtgcKKC0dFda4biA-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="VacancyDetails" vertex="1">
+          <mxGeometry height="124" width="220" x="780" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="WaXUbtgcKKC0dFda4biA-2" parent="WaXUbtgcKKC0dFda4biA-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ description: String&#xa;+ requirements: String&#xa;+ conditions: String&#xa;+ schedule: String&#xa;+ experience: String" vertex="1">
+          <mxGeometry height="90" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WaXUbtgcKKC0dFda4biA-3" parent="WaXUbtgcKKC0dFda4biA-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="WaXUbtgcKKC0dFda4biA-4" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="Vacancy" vertex="1">
+          <mxGeometry height="140" width="250" x="360" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="WaXUbtgcKKC0dFda4biA-5" parent="WaXUbtgcKKC0dFda4biA-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ id: Integer&#xa;+ title: String&#xa;+ salaryFrom: Integer&#xa;+ companyName: String&#xa;+ city: String&#xa;" vertex="1">
+          <mxGeometry height="84" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WaXUbtgcKKC0dFda4biA-6" parent="WaXUbtgcKKC0dFda4biA-4" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="250" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WaXUbtgcKKC0dFda4biA-7" parent="WaXUbtgcKKC0dFda4biA-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ getDetails(): VacancyDetails" vertex="1">
+          <mxGeometry height="22" width="250" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="WaXUbtgcKKC0dFda4biA-8" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="Database" vertex="1">
+          <mxGeometry height="150" width="370" x="495" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="WaXUbtgcKKC0dFda4biA-9" parent="WaXUbtgcKKC0dFda4biA-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="- URL: String&#xa;- USER: String&#xa;- PASS: String" vertex="1">
+          <mxGeometry height="60" width="370" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WaXUbtgcKKC0dFda4biA-10" parent="WaXUbtgcKKC0dFda4biA-8" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="8" width="370" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="WaXUbtgcKKC0dFda4biA-11" parent="WaXUbtgcKKC0dFda4biA-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" value="+ loadAllVacancies(): Vacancy[*]&#xa;+ loadDetailsFromDb(vacancyId: Integer): VacancyDetails" vertex="1">
+          <mxGeometry height="56" width="370" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="WaXUbtgcKKC0dFda4biA-12" edge="1" parent="1" source="WaXUbtgcKKC0dFda4biA-8" style="endArrow=open;endSize=10;dashed=1;html=1;rounded=0;strokeColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="WaXUbtgcKKC0dFda4biA-1" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="WaXUbtgcKKC0dFda4biA-13" edge="1" parent="1" source="WaXUbtgcKKC0dFda4biA-8" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.619;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.204;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;" target="WaXUbtgcKKC0dFda4biA-7" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="440" y="650" as="sourcePoint" />
+            <mxPoint x="600" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WaXUbtgcKKC0dFda4biA-14" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=-0.001;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.993;exitY=0.409;exitDx=0;exitDy=0;exitPerimeter=0;" target="WaXUbtgcKKC0dFda4biA-2" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="610" y="531.716" as="sourcePoint" />
+            <mxPoint x="782.63" y="532.28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
